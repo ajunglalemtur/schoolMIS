@@ -8,7 +8,8 @@ import Assignments from "./pages/Assignments";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import NotFound from "./pages/NotFound";
-
+import Users  from "./pages/Users";
+import AddUser from "./pages/AddUser";  // ✅ Ensure this import exists
 
 
 const App: React.FC = () => {
@@ -26,6 +27,8 @@ const App: React.FC = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/users" element={<Users />} />
+            <Route path="/add-user" element={<AddUser />} /> {/* New Route */}
           </Routes>
         </main>
       </div>

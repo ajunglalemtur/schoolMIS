@@ -1,0 +1,8 @@
+{
+    "users": [
+      { "id": 1, "name": "Alice Johnson", "email": "alice@example.com", "role": "Student" },
+      { "id": 2, "name": "Bob Smith", "email": "bob@example.com", "role": "Teacher" },
+      { "id": 3, "name": "Charlie Davis", "email": "charlie@example.com", "role": "Admin" }
+    ]
+  }
+  
